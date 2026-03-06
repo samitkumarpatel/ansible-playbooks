@@ -2,7 +2,7 @@
 - hosts: local
   become: True
   vars:
-    base_folder: "/maerskwas/data"
+    base_folder: "/minwas/data"
     jenkins_installation_folder: "{{ base_folder }}/.mepc"
     jenkins_home_path: "{{ jenkins_installation_folder }}/jenkins_home"
     jenkins_compose_path: "{{ jenkins_installation_folder }}/compose"
